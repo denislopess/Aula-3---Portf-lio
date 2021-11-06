@@ -1,0 +1,79 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*conteudo inicial*/
+.fb{
+  width: 100%;
+  display: flex;
+ 
+ /*alinhamento horizontal*/
+  justify-content: center;
+   /*alinhamento vertical*/
+  align-items: center;
+}
+
+.fb img{
+  width: 60px;
+  border-radius: 50%;
+}
+
+h2{
+  text-align: center;
+  margin-top:0;
+}
+
+.info h3{
+  margin-bottom: 0;
+  color: grey;
+}
+.info hr{
+  margin-top:0;
+  border:1px solid blue;
+}
+
+p span{
+  font-weight: 600;
+  color:blue;
+}
+
+/*flex icones*/
+.icones{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*tamanho icones*/
+.icones img{
+  width:25px;
+  margin-right: 8px;
+}
+
+/*footer*/
+.footer p{
+  text-align: center;
+  font-size: 18px;
+
+  padding: 16px;
+}
+
+.footer{
+  background: rgb(137,163,191);
+  background: linear-gradient(0deg, rgba(137,163,191,1) 0%, rgba(93,102,154,0.5718662464985995) 12%, rgba(97,113,182,1) 54%, rgba(34,0,255,0.9192051820728291) 100%);
+
+  border-radius: 0 0 16px 16px;
+}
+
+main{
+  margin: 5% 20%;
+  border: 1px solid rgba(128,128,128,0.1);
+  padding: 32px;
+  box-shadow: 0 5px 10px rgba(128,128,128, 0.1);
+  background-color:white;
+
+  border-radius: 0 0 32px 32px;
+}
+
+body{
+  background-color:aquamarine;
+}
